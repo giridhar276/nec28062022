@@ -1,0 +1,152 @@
+*** Everything in python is object***
+
+
+objects
+-------
+
+
+number
+------
+number can be integer or decimal or octal or hexa.
+
+val = 10
+aval = 34.3
+
+string
+--------
+string is defined in single or double or triple quotes.
+
+aname = 'python programming'
+bname = "testing"
+cname = """java programing"""
+
+
+
+list
+-------
+list contains set of elements.
+Elements can be set of numbers or strings or any combination.
+list elements are defined in [].
+
+alist = [10,20,30,343,10,10,10]
+blist = ["java programming","python",'unix']
+
+
+tuple ( immutable  unchangable uneditable )
+-------
+tuple contains set of elements.
+Elements can be set of numbers or strings or any combination.
+tuple elements are defined in ().
+***** Elements inside tuple cannot be modified DIRECTLY*****
+
+
+atup = ('java',34,45.43)
+
+
+dictionary ( json )
+----------
+dictionary contains elements in key:value pairs
+dictionary elements are defined in {}.
+keys are used to uniquely identify the value.it can be either number or string.
+value can be number or string or list or tuple or dictionary or set or any other complex data structure.
+
+syntax:    object = { key:value , key:value , key:value ...}
+example:    book  = {"chap1":10  ,"chap2":20 ,"chap3":30 ,"chap1":100 }
+            book  = {"chap1":[10,"Rita",'US']  ,"chap2":[20,'Arthur','UK'] }
+            data = {1:2,3:4}
+
+
+
+
+
+
+set
+-----
+set is unordered collection of unique values of the same type.
+
+
+aset = {10,10,20,30,30,20}
+
+
+
+
+
+working with flat files ( txt conf csv log .... )
+
+working with third party files ( we need some third party software like MS Office or adobe reader to open files)
+-----------------------
+.doc   pptx  .pdf   .mpeg
+
+
+
+
+
+package | module | library
+-----------------------------
+Every library contains set of methods.
+
+
+
+exception handling
+------------------
+
+- syntax error
+- semantic error or runtime error
+
+
+-------------------------------
+Handling the exception in the runtime is known as exception handling
+
+try
+except
+else
+finally
+
+
+packages | library | module |
+----------------------------------
+
+- builtin libraries
+-----------------------
+all the builtin libraries( around 8000 packages with anaconda) which are generally used(math operations , OS level operations , email handling , string operations , copying ) are installed with python 
+
+- third party libraries
+-----------------------
+Depending on the requirement( excel operations , machine learning , image processing , db operations , cloud operations ) developer has to install the third party library from
+
+
+- www.pypi.org    ( downloading and installing manually)
+- using pip tool  (  pip install libraryname)
+                  (  pip install pymysql)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
